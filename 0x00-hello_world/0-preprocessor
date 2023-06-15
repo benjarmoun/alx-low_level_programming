@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="$CFILE"
-OUTPUT_FILE="c"
-gcc -E "$CFILE" > "$OUTPUT_FILE"
+gcc -E $CFILE > c
